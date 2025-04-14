@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Red-Black Tree Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h1>Red-Black Tree Visualizer</h1>
+  
+  <!-- Controls Section -->
+  <div class="controls">
+    <input type="number" id="value" placeholder="Enter number" />
+    <button onclick="insertValue()">Insert</button>
+    <button onclick="clearTree()">Clear Tree</button>
+    <input type="file" id="fileInput" accept=".txt" />
+  </div>
+
+  <!-- Workflow log Section -->
+  <div id="workflow" class="workflow">Workflow :-</div>
+
+  <!-- Tree Visualization Section -->
+  <div id="tree"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

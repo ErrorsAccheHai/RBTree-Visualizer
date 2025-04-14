@@ -1,0 +1,83 @@
+body {
+    font-family: inherit;
+    background: #dfccf8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 20px;
+    color: #333;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"], input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .node circle {
+    stroke: #333;
+    stroke-width: 2px;
+  }
+  
+  .node text {
+    font-size: 14px;
+    font-weight: bold;
+    fill: white;
+  }
+  
+  .link {
+    fill: none;
+    stroke: #888;
+    stroke-width: 2px;
+  }
+  
+  .red {
+    fill: red;
+  }
+  
+  .black {
+    fill: black;
+  }
+  
+  /* Workflow section styling */
+  .workflow {
+    margin: 20px;
+    padding: 10px;
+    background: #a6e0f7;
+    border: 1px solid #2c0d0d;
+    border-radius: 5px;
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .workflow p {
+    font-size: 16px;
+    color: #333;
+  }
+  
